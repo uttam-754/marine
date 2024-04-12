@@ -1,0 +1,72 @@
+.logo h1{
+    color: rgb(58, 146, 218);
+}
+
+.container{
+    max-width: 110rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    margin: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.search_bar{
+    display: flex;
+    width: 350px;
+    height: 55px;
+    margin-top: 1rem;
+    background: #222;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+input{
+    width: 85%;
+    
+    font-size: 1.5rem;
+    outline: none;
+    padding: 10px;
+    color: aliceblue;
+    background: none;
+    border: none;
+    
+
+}
+button{
+    position: absolute;
+    height: 90%;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: rgba(230, 220, 220, 0.8);
+    border-radius: 10px;
+    transition: .5s linear;
+    
+}
+.S_icon{
+    position: relative;
+    width: 50px;
+    padding: .2rem;
+
+}
+.S_icon img{
+   object-fit: contain;
+}
+
+.icon{
+    display: flex;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+.cart_icon{
+    margin: 0;
+    
+}
+.menu_icon{
+    display: none;
+}

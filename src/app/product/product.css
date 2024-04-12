@@ -1,0 +1,43 @@
+.contain {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    position: relative;
+}
+
+.side_bar {
+    width: 25%;
+    height: 100vh;
+    background-color: #4dbfe5;
+    padding: 1rem;
+}
+
+.prodt_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem;
+    padding: 1.2rem;
+    column-gap: 2rem;
+    row-gap: 4rem;
+}
+
+.product_frame {
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+img {
+    height: 85%;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+    mix-blend-mode: lighten;
+}
+
+h2 {
+    text-align: center;
+}

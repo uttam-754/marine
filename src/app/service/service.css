@@ -1,0 +1,27 @@
+.box{
+    width: 100%;
+    padding: .2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.frame{
+    max-width: 300px;
+    max-height: 350px;
+    margin: 5px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    background: rgba(0,0,0,0.4);
+
+}
+
+img{
+    height: 85%;
+    aspect-ratio: 2/3;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+    
+}
