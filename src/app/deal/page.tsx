@@ -33,12 +33,12 @@ const Today_deal = () => {
                                     </div>
                                     <div className="off_percent">
                                         <span>{roundup}% off</span>
-                                        <h2></h2>
+                                        <h4> Limited time deal </h4>
                                     </div>
-                                    <span> Limited time deal </span>
+                                    
                                     <div className="price">
-                                        <h3>${discount}</h3>
-                                        <h4>M.R.P.: ${mrp}</h4>
+                                        <h3>₹ {discount}</h3>
+                                        <h4>M.R.P.: <span>₹{mrp}</span></h4>
                                     </div>
                                     <div className="Pname">
                                         <h3>{proName}</h3>

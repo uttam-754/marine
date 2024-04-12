@@ -32,3 +32,29 @@ h2{
     /* backdrop-filter: blur(4px);
     border-radius: 15px; */
 }
+.off_percent{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.off_percent span{
+    padding: 2px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+.off_percent h4{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.price{
+    padding: .5rem;
+    
+}
+.price h3{
+    font-size: 2.5rem;
+}
+.price span{
+    font-size: 1.5rem;
+    text-decoration-line: line-through;
+    text-decoration-color: white;
+}
