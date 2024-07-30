@@ -3,6 +3,8 @@
     display: flex;
     padding: 1rem;
     position: relative;
+    margin-top: 2rem;
+
 }
 
 .side_bar {
@@ -15,36 +17,41 @@
 .prodt_box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     width: 100%;
     margin: 1rem;
     padding: 1.2rem;
     column-gap: 2rem;
-    row-gap: 4rem;
+    row-gap: 2rem;
+    backdrop-filter: blur(15px);
+    box-shadow: 30px 20px 30px 40px rgba(0,0,0,1.1);
+    
 }
 
-.product_frame {
-    background: rgba(0, 0, 0, 0.4);
-    max-width: 250px;
-    height: 300px;
+.proInfo{
+    padding: 10px;
+    max-width: 300px;
+    height: 350px;
     border-radius: 10px;
     text-align: center;
+    background: #000;
 
 }
-.product_frame:hover{
-    color: #ddd;
-    background-color: rgb(0, 0, 0, 0.8);
+.proInfo:hover{
+    color: #222;
+    background-color: #86daf7;
     transition: .5s linear;
     
 }
 
 img {
-    height: 85%;
-    aspect-ratio: 2/2;
-    object-fit: contain;
-    mix-blend-mode: lighten;
+    
 }
 
 h2 {
     text-align: center;
+}
+h4{
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

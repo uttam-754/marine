@@ -4,11 +4,12 @@ import React, { useState } from 'react'
 import "./banner.css"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import MenuIcon from '@mui/icons-material/Menu';
-import Products from '../product/api';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Banner = () => {
 
-    const [inputValue, setInputValue] = useState("")
+    const [inputValue, setInputValue] = useState("");
+    
     const handleClick = () => {
         const call = ()=>{
             if(
@@ -17,7 +18,6 @@ const Banner = () => {
             return true;
         }
         console.log(inputValue);
-        console.log(call)
         setInputValue('')
     }
 
@@ -43,7 +43,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="login">
-                    <Link href={""}>Login</Link>
+                    <Link href={"/login"}>Login</Link>
                 </div>
                 <div className="icon">
                     <Link href="#" className="cart_icon">
@@ -52,6 +52,7 @@ const Banner = () => {
 
                     <div className="menu_icon">
                         <MenuIcon />
+                        <CloseIcon/>
                     </div>
                 </div>
             </div>

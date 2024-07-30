@@ -22,9 +22,8 @@
     border: 1px solid #ddd;
     border-radius: 10px;
 }
-input{
+.search_bar input{
     width: 85%;
-    
     font-size: 1.5rem;
     outline: none;
     padding: 10px;
@@ -34,7 +33,7 @@ input{
     
 
 }
-button{
+.S_icon button{
     position: absolute;
     height: 90%;
     background: none;
@@ -69,4 +68,10 @@ button:hover{
 }
 .menu_icon{
     display: none;
+}
+
+@media(max-width : 796px){
+    .menu_icon{
+        display: block;
+    }
 }
